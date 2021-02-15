@@ -1,0 +1,399 @@
+@charset "utf-8";
+
+body {
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #333;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 0 30px;
+  padding-top: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.flex {
+  display: flex;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+  vertical-align: bottom;
+}
+a {
+  color:black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+
+/* =========================
+header
+============================ */
+
+header {
+  border-top: 10px solid #421101;
+}
+
+h1 {
+  padding: 35px;
+  background-color: #801805;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+}
+
+/* =========================
+top-img
+============================ */
+.top-img {
+  background-image: url(../img/komenomi.png);
+  padding: 180px 0 ;
+  background-size: cover;
+  text-align: center;
+}
+
+
+.vertical {
+  -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+  text-align: left;
+	display: inline-block;
+  font-size: 50px;
+}
+
+/* =========================
+menu
+============================ */
+
+.menu {
+  /* background-color: #fffecb; */
+  background-color: #FFF6ED;
+} 
+
+.wrapper-left {
+  width: 60%;
+  margin-bottom: 50px;
+}
+.main-left img {
+  vertical-align: bottom;
+}
+
+.wrapper-right {
+  width:40%;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.menu-p {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-bottom: 15px;
+  border-bottom: 10px solid red;
+  text-align: center;
+}
+.menu-price {
+  text-align: right;
+}
+
+
+/* =========================
+about1
+============================ */
+.about1 {
+  background-color: #801805;
+  padding-bottom: 50px;
+} 
+
+.about1-color {
+  color: #fff;
+}
+
+.about1-left {
+  width: 40%;
+  margin-top: 50px;
+}
+
+.about1-right {
+  width: 60%;
+}
+
+/* =========================
+about2
+============================ */
+.about2 {
+  /* background-color: #fffecb; */
+  background-color: #FFF6ED;
+padding-bottom: 50px;
+}
+
+.about2-left {
+  width: 59%;
+}
+
+.about2-right {
+  margin-top: 50px;
+  width: 39%;
+  margin-left: 30px;
+}
+
+/* =========================
+info
+============================ */
+
+.info {
+  /* background-color: #421101; */
+  background-color: #801805;
+  color: #333;
+  padding-bottom: 50px;
+}
+.font-color-white {
+  color: #fff;
+}
+
+.info-left {
+  width: 39%;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.info-right {
+  width: 59%;
+}
+
+/* table */
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr{
+  border-bottom: solid 1px #801805;
+}
+
+table tr:last-child{
+  border-bottom: none;
+}
+
+table th{
+  position: relative;
+  text-align: left;
+  width: 30%;
+  background-color: #fea82f;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th:after{
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top:calc(50% - 10px);
+  right:-10px;
+  border-left: 10px solid #fea82f;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+table td{
+  text-align: left;
+  width: 70%;
+  text-align: center;
+  background-color: #FFF6ED;
+  padding: 10px 0;
+}
+
+
+/* =========================
+SNS
+============================ */
+.sns {
+  background-color: #421101;
+  padding-bottom: 50px;
+  margin:  0 auto;
+  color: #fff;
+}
+
+.wrapper-left-twitter {
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+
+.wrapper-right-instagram {
+  width: 50%;
+
+  margin: 0 auto;
+  margin-left: 50px;
+}
+
+/* =========================
+footer
+============================ */
+footer {
+  padding: 10px;
+  margin: auto;
+  background-color: black;
+  text-align: center;
+}
+
+@media screen and (max-width:767px) {
+
+  body {
+    font-size: 17px;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding: 0;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    padding: 15px;
+  }
+
+
+  /* =========================
+header
+============================ */
+
+
+
+  /* =========================
+top-img
+============================ */
+
+  .top-img {
+    padding: 80px;
+    margin: 0;
+  }
+
+  .vertical {
+    font-size: 24px;
+  }
+
+.flex {
+display:initial;
+}
+
+    /* =========================
+menu
+============================ */
+
+.wrapper-left {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.wrapper-right {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+  
+    /* =========================
+about1
+============================ */
+.about1-left {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 10px 0 15px ;
+}
+
+.about1-right {
+  width: 100%;
+}
+.flex-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+    /* =========================
+about2
+============================ */
+
+.about2-left {
+  width: 100%;
+}
+.about2-right {
+  width: 100%;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0 10px 0 15px;
+}
+
+
+    /* =========================
+info
+============================ */
+
+.info {
+padding-bottom: 1px;
+}
+
+.info-left {
+  width: 100%;
+  margin: 0;
+}
+.info-right {
+  width: 100%;
+  margin: 0;
+}
+
+.flex-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.font-size {
+  font-size: 14px;
+}
+
+    /* =========================
+sns
+============================ */
+
+.sns {
+  padding: 0;
+}
+
+.wrapper-left-twitter {
+  width: 100%;
+  margin: 0;
+}
+
+.wrapper-right-instagram {
+  width: 100%;
+  margin: auto;
+}
+
+}
